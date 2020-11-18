@@ -79,6 +79,23 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Javascript</h3>
+                <js-logo class="w-24 h-24"></js-logo>
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+                Because I am mostly interested in web-development I started to use Javascript fairly early into my
+                development adventure. But after I acquired some skills in Vue.js I quickly abandoned plain Javascript
+                and started to use Vue.js exclusively.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Go</h3>
                 <c-sharp-logo class="w-24 h-24"></c-sharp-logo>
               </div>
               <div class="my-auto font-semibold">
@@ -95,6 +112,36 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Laravel</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Vue.js</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Tailwind CSS</h3>
 
               </div>
               <div class="my-auto font-semibold">
@@ -132,10 +179,53 @@
                 <p>Skill: 6 / 10</p>
               </div>
               <p class="mt-2">
-                Since most of my private projects are using Laravel, I am mostly developing with PHP. I am confident
-                that I am able to do realize most concepts with PHP. I will have to admit, that because I am doing a
-                lot with Laravel, my plain PHP skills have suffered a little, but I am confident i can pick it up
-                again quickly.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <h2 class="p-2 border-b text-2xl text-center border-gray-200">Operating Systems</h2>
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Windows</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 6 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">MacOS</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 6 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Ubuntu</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 6 / 10</p>
+              </div>
+              <p class="mt-2">
+
               </p>
             </div>
           </div>
@@ -170,6 +260,36 @@
               </p>
             </div>
           </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Nginx</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Node.js</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -182,6 +302,7 @@ import PhpStormLogo from '@/Shared/phpstorm-logo'
 import PhpLogo from '@/Shared/php-logo'
 import VsCodeLogo from '@/Shared/vs-code-logo'
 import CSharpLogo from '@/Shared/csharp-logo'
+import JsLogo from '@/Shared/js-logo'
 
 export default {
     name: "Skills",
@@ -191,6 +312,7 @@ export default {
         PhpLogo,
         VsCodeLogo,
         CSharpLogo,
+        JsLogo,
     }
 }
 </script>
