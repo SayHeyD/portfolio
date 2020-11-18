@@ -36,12 +36,7 @@ export default {
       AppLayout,
     },
     props: {
-        User: {
-            type: Object,
-            default: {
-                name: 'Guest'
-            }
-        }
+        User: Object
     }
 }
 </script>
