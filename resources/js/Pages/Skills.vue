@@ -133,13 +133,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Vue.js</h3>
-
+                <vue-js-logo class="w-24 h-24"></vue-js-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                At first I was using the blade templating engine laravel provides. But after some time I realized that
+                if I want to realize some more complex logic in the front-end, doing this will be much easier with a
+                framework like Vue.js. I am capable of realizing most of the concepts I want to realize. Still, I run into
+                some problems quite often, because I still don't really understand how exactly Vue.js works.
               </p>
             </div>
           </div>
@@ -326,6 +329,7 @@ import CSharpLogo from '@/Shared/csharp-logo'
 import JsLogo from '@/Shared/js-logo'
 import GoLogo from '@/Shared/go-logo'
 import LaravelLogo from '@/Shared/laravel-logo'
+import VueJsLogo from '@/Shared/vue-js-logo'
 
 export default {
     name: "Skills",
@@ -338,6 +342,7 @@ export default {
         JsLogo,
         GoLogo,
         LaravelLogo,
+        VueJsLogo,
     }
 }
 </script>
