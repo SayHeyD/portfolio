@@ -151,13 +151,17 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Tailwind CSS</h3>
-
+                <tailwind-css-logo class="w-24 h-24"></tailwind-css-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 8 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                When I first heard about Tailwind CSS from a colleague and looked into it, I felt some much relieve.
+                It's not like I hate CSS, but component frameworks like Bootstrap weren't cutting it for me and plain
+                CSS was just not convenient enough. I have already done a lot with Tailwind and I am fairly proficient
+                with it. I still gave to look up the documentation sometimes for classes I don't use often or if I want
+                to customize the framework.
               </p>
             </div>
           </div>
@@ -330,6 +334,7 @@ import JsLogo from '@/Shared/js-logo'
 import GoLogo from '@/Shared/go-logo'
 import LaravelLogo from '@/Shared/laravel-logo'
 import VueJsLogo from '@/Shared/vue-js-logo'
+import TailwindCssLogo from '@/Shared/tailwind-css-logo'
 
 export default {
     name: "Skills",
@@ -343,6 +348,7 @@ export default {
         GoLogo,
         LaravelLogo,
         VueJsLogo,
+        TailwindCssLogo,
     }
 }
 </script>
