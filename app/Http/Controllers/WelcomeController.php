@@ -11,7 +11,7 @@ class WelcomeController extends Controller
     public function view()
     {
         return Inertia::render('Welcome', [
-            'User' => Auth::user(),
+            'User' => Auth::user() ?? ['name' => 'Guest'],
         ]);
     }
 }
