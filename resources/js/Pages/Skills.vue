@@ -154,6 +154,21 @@
           </div>
 
           <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Inertia.js</h3>
+
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 7 / 10</p>
+              </div>
+              <p class="mt-2">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
             <h2 class="p-2 border-b text-2xl text-center border-gray-200">Databases</h2>
             <div class="p-2">
               <div class="flex justify-between mt-2">
