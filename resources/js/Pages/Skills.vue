@@ -19,7 +19,10 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 4 / 10</p>
               </div>
-              <p class="mt-2">I am working with PhpStorm as my primary editor. But I still do not know most of the system in-depth.</p>
+              <p class="mt-2 px-32">
+                I am working with PhpStorm as my primary editor. But I still do not know most of the system in-depth,
+                since most of the time I do not need the functions provided.
+              </p>
             </div>
           </div>
 
@@ -32,7 +35,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 3 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
                 For some appliances VSCode is more performant then PhpStorm e.g. Vue-CLI Apps. The indexing of PhpStorm
                 on my development Laptop is really slow, which is why i switch to VSCode if I have to do some intensive
                 Front-End tasks.
@@ -50,7 +53,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
                 Since most of my private projects are using Laravel, I am mostly developing with PHP. I am confident
                 that I am able to do realize most concepts with PHP. I will have to admit, that because I am doing a
                 lot with Laravel, my plain PHP skills have suffered a little, but I am confident i can pick it up
@@ -68,7 +71,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
                 I earned most of my experience of C# at my workplace. I wrote some smaller applications and add-ons
                 in C#. Everything I know about C# I learned myself from online resources.
               </p>
@@ -84,7 +87,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
                 Because I am mostly interested in web-development I started to use Javascript fairly early into my
                 development adventure. But after I acquired some skills in Vue.js I quickly abandoned plain Javascript
                 and started to use Vue.js exclusively.
@@ -96,13 +99,14 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Go</h3>
-                <c-sharp-logo class="w-24 h-24"></c-sharp-logo>
+                <go-logo class="h-12"></go-logo>
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 8 / 10</p>
+                <p>Skill: 2 / 10</p>
               </div>
-              <p class="mt-2">
-                Because I am mostly interested in
+              <p class="mt-2 px-32">
+                I only took a look at Go for a Weekend. I never really looked at it deeper but I will keep it in my
+                mind and I am certainly not apposed to learning and doing more with go.
               </p>
             </div>
           </div>
@@ -112,13 +116,15 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Laravel</h3>
-
+                <laravel-logo class="h-24"></laravel-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
-
+              <p class="mt-2 px-32">
+                Laravel is my preferred Framework when it comes to Backend development. Aside from the Framework itself
+                the ecosystem that Laravel provides is a huge, extremely useful toolbox every web-developer should take a
+                look on. I can find my way around in Laravel but I still have some areas I lack knowledge.
               </p>
             </div>
           </div>
@@ -130,9 +136,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 7 / 10</p>
+                <p>Skill: 5 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -145,9 +151,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 7 / 10</p>
+                <p>Skill: 8 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -160,9 +166,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 7 / 10</p>
+                <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -176,9 +182,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 6 / 10</p>
+                <p>Skill: 8 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -193,7 +199,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -207,9 +213,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 6 / 10</p>
+                <p>Skill: 9 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -222,9 +228,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 6 / 10</p>
+                <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -237,9 +243,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 6 / 10</p>
+                <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -255,7 +261,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -270,7 +276,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -283,9 +289,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 7 / 10</p>
+                <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -298,9 +304,9 @@
 
               </div>
               <div class="my-auto font-semibold">
-                <p>Skill: 7 / 10</p>
+                <p>Skill: 5 / 10</p>
               </div>
-              <p class="mt-2">
+              <p class="mt-2 px-32">
 
               </p>
             </div>
@@ -318,6 +324,8 @@ import PhpLogo from '@/Shared/php-logo'
 import VsCodeLogo from '@/Shared/vs-code-logo'
 import CSharpLogo from '@/Shared/csharp-logo'
 import JsLogo from '@/Shared/js-logo'
+import GoLogo from '@/Shared/go-logo'
+import LaravelLogo from '@/Shared/laravel-logo'
 
 export default {
     name: "Skills",
@@ -328,6 +336,8 @@ export default {
         VsCodeLogo,
         CSharpLogo,
         JsLogo,
+        GoLogo,
+        LaravelLogo,
     }
 }
 </script>
