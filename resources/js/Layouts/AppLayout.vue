@@ -17,6 +17,10 @@
                             <jet-nav-link :href="route('index')" :active="route().current('index')">
                               Welcome
                             </jet-nav-link>
+
+                            <jet-nav-link :href="route('skills')" :active="route().current('skills')">
+                              Skills
+                            </jet-nav-link>
                         </div>
                     </div>
 
