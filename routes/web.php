@@ -13,7 +13,8 @@ use App\Http\Controllers\WelcomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', [WelcomeController::class, 'view'])->name('index');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-    Route::get('/', [WelcomeController::class, 'view'])->name('index');
+
 });
