@@ -170,13 +170,18 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Inertia.js</h3>
-
+                <inertia-js-logo class="w-24"></inertia-js-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                Inertia.js isn't really a framework, it's a tool to integrate front-end frameworks and SPAs with b
+                ack-end frameworks more seamlessly. Inertia.js doesn't require a specific language or framework to work.
+                I have only used it with Laravel and Vue.js. It allows me to have a SPA without having to provide a
+                REST API on my back-end. You can take a look at the
+                <a class="text-indigo-500 hover:underline" href="https://github.com/inertiajs/pingcrm" target="_blank">PingCRM</a>
+                repository or at this repository to see how it works.
               </p>
             </div>
           </div>
@@ -335,6 +340,7 @@ import GoLogo from '@/Shared/go-logo'
 import LaravelLogo from '@/Shared/laravel-logo'
 import VueJsLogo from '@/Shared/vue-js-logo'
 import TailwindCssLogo from '@/Shared/tailwind-css-logo'
+import InertiaJsLogo from '@/Shared/inertia-js-logo'
 
 export default {
     name: "Skills",
@@ -349,6 +355,7 @@ export default {
         LaravelLogo,
         VueJsLogo,
         TailwindCssLogo,
+        InertiaJsLogo,
     }
 }
 </script>
