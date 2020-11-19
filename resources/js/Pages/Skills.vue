@@ -19,7 +19,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 4 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 I am working with PhpStorm as my primary editor. But I still do not know most of the system in-depth,
                 since most of the time I do not need the functions provided.
               </p>
@@ -35,7 +35,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 3 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 For some appliances VSCode is more performant then PhpStorm e.g. Vue-CLI Apps. The indexing of PhpStorm
                 on my development Laptop is really slow, which is why i switch to VSCode if I have to do some intensive
                 Front-End tasks.
@@ -53,7 +53,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Since most of my private projects are using Laravel, I am mostly developing with PHP. I am confident
                 that I am able to do realize most concepts with PHP. I will have to admit, that because I am doing a
                 lot with Laravel, my plain PHP skills have suffered a little, but I am confident i can pick it up
@@ -71,7 +71,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 I earned most of my experience of C# at my workplace. I wrote some smaller applications and add-ons
                 in C#. Everything I know about C# I learned myself from online resources.
               </p>
@@ -87,7 +87,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Because I am mostly interested in web-development I started to use Javascript fairly early into my
                 development adventure. But after I acquired some skills in Vue.js I quickly abandoned plain Javascript
                 and started to use Vue.js exclusively.
@@ -104,7 +104,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 2 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 I only took a look at Go for a Weekend. I never really looked at it deeper but I will keep it in my
                 mind and I am certainly not apposed to learning and doing more with go.
               </p>
@@ -120,7 +120,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 I used Python a lot in school a while ago and sometimes I even use it at my workplace. I also tried
                 out some back-end development with python. Since I haven't used python in a while and only used it
                 sparingly when I did, I am sure I will not be as efficient if I had to use it right now, but I am
@@ -139,7 +139,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Laravel is my preferred Framework when it comes to Backend development. Aside from the Framework itself
                 the ecosystem that Laravel provides is a huge, extremely useful toolbox every web-developer should take a
                 look on. I can find my way around in Laravel but I still have some areas I lack knowledge.
@@ -156,7 +156,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 At first I was using the blade templating engine laravel provides. But after some time I realized that
                 if I want to realize some more complex logic in the front-end, doing this will be much easier with a
                 framework like Vue.js. I am capable of realizing most of the concepts I want to realize. Still, I run into
@@ -174,7 +174,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 8 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 When I first heard about Tailwind CSS from a colleague and looked into it, I felt some much relieve.
                 It's not like I hate CSS, but component frameworks like Bootstrap weren't cutting it for me and plain
                 CSS was just not convenient enough. I have already done a lot with Tailwind and I am fairly proficient
@@ -193,7 +193,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 3 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 I tried out Django a while ago before I switched at stayed at Laravel. I did one or two projects with
                 Django before discarding it and sadly the Projects. I have nothing against Django but I would prefer
                 it to be able to work with Laravel.
@@ -210,7 +210,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Inertia.js isn't really a framework, it's a tool to integrate front-end frameworks and SPAs with b
                 ack-end frameworks more seamlessly. Inertia.js doesn't require a specific language or framework to work.
                 I have only used it with Laravel and Vue.js. It allows me to have a SPA without having to provide a
@@ -231,7 +231,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 8 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 MySQL was the first database I learned to use and I have worked with it ever since. I am using MySQL
                 in a professional environment and as my database of choice for private projects. I am currently
                 administering MySQL servers and capable of writing complex queries.
@@ -248,7 +248,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 When I tried out django I had some trouble with the mysql-connectors and substituted mysql with
                 PostgreSql. Since, I have used PostgreSql more and more in projects. Although I understand how
                 PostgreSql works I am not as comfortable with it as with MySql.
@@ -266,7 +266,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 9 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Windows is the OS I have the most experience with, simply because I have used it since I was 9
                 years old. I have worked with Windows XP, Vista, 7, 8 and 10. I am also working with a Windows-Server
                 in my free time since I am managing and administering a game-server for multiple gaming communities.
@@ -284,7 +284,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 After I started web-development I became interested in mobile app development and looked into it. I
                 realized quickly, that if I want to develop iOS Apps I would need to get my hands onto MacOS. After
                 a push from a friend I have bought myself a second-hand MacBook Pro and have been using it as my
@@ -302,7 +302,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
                 Ubuntu is my preferred server OS when it comes to servers for web-technologies. I have little
                 experience with Ubuntu at my workplace but I am administering a Ubuntu Server in a professional
                 environment for a private customer. I also had a lot of experience with it in school. I have also
@@ -321,7 +321,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
 
               </p>
             </div>
@@ -336,7 +336,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
 
               </p>
             </div>
@@ -351,7 +351,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
 
               </p>
             </div>
@@ -366,7 +366,7 @@
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
-              <p class="mt-2 px-32">
+              <p class="mt-2 px-4 md:px-32">
 
               </p>
             </div>
