@@ -353,13 +353,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Nginx</h3>
-
+                <nginx-logo class="w-24"></nginx-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
               <p class="mt-2 px-4 md:px-32">
-
+                Nginx is my webserver of choice and I use it to serve most the websites and web-apps I administering.
+                I can setup a a nginx server as a webserver or reverse-proxy in a productive environment but i still
+                will have to research the specifics of the service I want to publish and look at the documentation
+                od the condifuration options.
               </p>
             </div>
           </div>
@@ -405,6 +408,7 @@ import MacOsLogo from '@/Shared/Logos/macos-logo'
 import UbuntuLogo from '@/Shared/Logos/ubuntu-logo'
 import DockerLogo from "@/Shared/Logos/docker-logo"
 import GitLogo from '@/Shared/Logos/git-logo'
+import NginxLogo from '@/Shared/Logos/nginx-logo'
 
 export default {
     name: "Skills",
@@ -429,6 +433,7 @@ export default {
         MacOsLogo,
         UbuntuLogo,
         GitLogo,
+        NginxLogo,
     }
 }
 </script>
