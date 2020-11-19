@@ -334,13 +334,17 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Git</h3>
-
+                <git-logo class="w-24"></git-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
               <p class="mt-2 px-4 md:px-32">
-
+                Shortly after my start in software-development a friend introduced me to the concept of VCS and
+                specifically Git. I started to use GitHub and GitLab simultaneously with Git and have never done a
+                project without it since. I haven't encountered many problems when using git and never really had to
+                dive deep into it, which is why I am confident in using it a production environment but still think I
+                have a lot to learn.
               </p>
             </div>
           </div>
@@ -399,7 +403,8 @@ import DjangoLogo from '@/Shared/Logos/django-logo'
 import WindowsLogo from '@/Shared/Logos/windows-logo'
 import MacOsLogo from '@/Shared/Logos/macos-logo'
 import UbuntuLogo from '@/Shared/Logos/ubuntu-logo'
-import DockerLogo from "@/Shared/Logos/docker-logo";
+import DockerLogo from "@/Shared/Logos/docker-logo"
+import GitLogo from '@/Shared/Logos/git-logo'
 
 export default {
     name: "Skills",
@@ -423,6 +428,7 @@ export default {
         WindowsLogo,
         MacOsLogo,
         UbuntuLogo,
+        GitLogo,
     }
 }
 </script>
