@@ -279,13 +279,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">MacOS</h3>
-
+                <mac-os-logo class="w-24 h-24"></mac-os-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                After I started web-development I became interested in mobile app development and looked into it. I
+                realized quickly, that if I want to develop iOS Apps I would need to get my hands onto MacOS. After
+                a push from a friend I have bought myself a second-hand MacBook Pro and have been using it as my
+                primary development machine since. Although I haven't done any mobile app development with it.
               </p>
             </div>
           </div>
@@ -388,6 +391,7 @@ import PostgreSqlLogo from '@/Shared/Logos/postgresql-logo'
 import PythonLogo from '@/Shared/Logos/python-logo'
 import DjangoLogo from '@/Shared/Logos/django-logo'
 import WindowsLogo from '@/Shared/Logos/windows-logo'
+import MacOsLogo from '@/Shared/Logos/macos-logo'
 
 export default {
     name: "Skills",
@@ -408,6 +412,7 @@ export default {
         PythonLogo,
         DjangoLogo,
         WindowsLogo,
+        MacOsLogo,
     }
 }
 </script>
