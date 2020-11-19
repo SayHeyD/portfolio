@@ -21,5 +21,5 @@ Route::get('/skills', [SkillsController::class, 'view'])->name('skills');
 Route::get('/hobbies', [HobbyController::class, 'view'])->name('hobbies');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-    Route::get('/resume', [ResumeController::class, 'view'])->name('resume');
+    // Routes where users have to be authenticated to access
 });

@@ -25,12 +25,6 @@
                             <jet-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
                               Hobbies
                             </jet-nav-link>
-
-                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex" v-if="$page.user !== null">
-                                <jet-nav-link :href="route('resume')" :active="route().current('resume')">
-                                  Resume
-                                </jet-nav-link>
-                            </div>
                         </div>
                     </div>
 
@@ -149,12 +143,6 @@
                     <jet-responsive-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
                       Hobbies
                     </jet-responsive-nav-link>
-
-                    <div v-if="$page.user !== null">
-                        <jet-responsive-nav-link :href="route('resume')" :active="route().current('resume')">
-                          Resume
-                        </jet-responsive-nav-link>
-                    </div>
                 </div>
 
                 <!-- Responsive Settings Options -->
