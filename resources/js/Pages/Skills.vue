@@ -188,13 +188,15 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Django</h3>
-
+                <django-logo class="w-24"></django-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 3 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                I tried out Django a while ago before I switched at stayed at Laravel. I did one or two projects with
+                Django before discarding it and sadly the Projects. I have nothing against Django but I would prefer
+                it to be able to work with Laravel.
               </p>
             </div>
           </div>
@@ -381,6 +383,7 @@ import InertiaJsLogo from '@/Shared/Logos/inertia-js-logo'
 import MysqlLogo from '@/Shared/Logos/mysql-logo'
 import PostgreSqlLogo from '@/Shared/Logos/postgresql-logo'
 import PythonLogo from '@/Shared/Logos/python-logo'
+import DjangoLogo from '@/Shared/Logos/django-logo'
 
 export default {
     name: "Skills",
@@ -399,6 +402,7 @@ export default {
         MysqlLogo,
         PostgreSqlLogo,
         PythonLogo,
+        DjangoLogo,
     }
 }
 </script>
