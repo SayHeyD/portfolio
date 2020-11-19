@@ -112,6 +112,21 @@
           </div>
 
           <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Python</h3>
+                <go-logo class="h-12"></go-logo>
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 5 / 10</p>
+              </div>
+              <p class="mt-2 px-32">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
             <h2 class="p-2 border-b text-2xl text-center border-gray-200">Frameworks</h2>
             <div class="p-2">
               <div class="flex justify-between mt-2">
@@ -162,6 +177,21 @@
                 CSS was just not convenient enough. I have already done a lot with Tailwind and I am fairly proficient
                 with it. I still gave to look up the documentation sometimes for classes I don't use often or if I want
                 to customize the framework.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full p-4">
+            <div class="p-2">
+              <div class="flex justify-between mt-2">
+                <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Django</h3>
+                <tailwind-css-logo class="w-24 h-24"></tailwind-css-logo>
+              </div>
+              <div class="my-auto font-semibold">
+                <p>Skill: 3 / 10</p>
+              </div>
+              <p class="mt-2 px-32">
+
               </p>
             </div>
           </div>
