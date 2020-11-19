@@ -316,13 +316,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Docker</h3>
-
+                <docker-logo class="w-24"></docker-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 6 / 10</p>
               </div>
               <p class="mt-2 px-4 md:px-32">
-
+                I have worked with Docker out of curiosity and I had a 40 hour module for my system-technician diploma
+                which I will complete early in february 2021. I think docker offers big possibilities but when container,
+                container orchestration and the technical concepts are not used together, I think there is more time
+                involved then the technology spares us.
               </p>
             </div>
           </div>
@@ -396,10 +399,12 @@ import DjangoLogo from '@/Shared/Logos/django-logo'
 import WindowsLogo from '@/Shared/Logos/windows-logo'
 import MacOsLogo from '@/Shared/Logos/macos-logo'
 import UbuntuLogo from '@/Shared/Logos/ubuntu-logo'
+import DockerLogo from "@/Shared/Logos/docker-logo";
 
 export default {
     name: "Skills",
     components: {
+        DockerLogo,
         AppLayout,
         PhpStormLogo,
         PhpLogo,
