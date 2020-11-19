@@ -21,8 +21,8 @@
                 <p>
                   I first started playing drums when I was 6 years old and played it till I was 12. Due to
                   some personal troubles I dropped it and only started to get back into music when I picked up an old
-                  guitar we had laying around when I was 17. I am now playing guitar regularly for my self. It helps
-                  calming me and also to rebuild my mental energy.
+                  guitar we had laying around when I was 17. I am now playing guitar regularly and acquired a bass
+                  guitar to make some music for my self. It helps calming me and also to rebuild my mental energy.
                 </p>
               </div>
             </div>
