@@ -297,13 +297,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Ubuntu</h3>
-
+                <ubuntu-logo class="w-24 h-24"></ubuntu-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 7 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                Ubuntu is my preferred server OS when it comes to servers for web-technologies. I have little
+                experience with Ubuntu at my workplace but I am administering a Ubuntu Server in a professional
+                environment for a private customer. I also had a lot of experience with it in school. I have also
+                evaluated it as my development OS but after buying myself a Mac i switched to MacOS for that.
               </p>
             </div>
           </div>
@@ -392,6 +395,7 @@ import PythonLogo from '@/Shared/Logos/python-logo'
 import DjangoLogo from '@/Shared/Logos/django-logo'
 import WindowsLogo from '@/Shared/Logos/windows-logo'
 import MacOsLogo from '@/Shared/Logos/macos-logo'
+import UbuntuLogo from '@/Shared/Logos/ubuntu-logo'
 
 export default {
     name: "Skills",
@@ -413,6 +417,7 @@ export default {
         DjangoLogo,
         WindowsLogo,
         MacOsLogo,
+        UbuntuLogo,
     }
 }
 </script>
