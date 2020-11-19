@@ -261,13 +261,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Windows</h3>
-
+                <windows-logo class="w-24"></windows-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 9 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                Windows is the OS I have the most experience with, simply because I have used it since I was 9
+                years old. I have worked with Windows XP, Vista, 7, 8 and 10. I am also working with a Windows-Server
+                in my free time since I am managing and administering a game-server for multiple gaming communities.
+                Besides that I am working with a Windows-Server at my workplace and have used it extensively in school.
               </p>
             </div>
           </div>
@@ -384,6 +387,7 @@ import MysqlLogo from '@/Shared/Logos/mysql-logo'
 import PostgreSqlLogo from '@/Shared/Logos/postgresql-logo'
 import PythonLogo from '@/Shared/Logos/python-logo'
 import DjangoLogo from '@/Shared/Logos/django-logo'
+import WindowsLogo from '@/Shared/Logos/windows-logo'
 
 export default {
     name: "Skills",
@@ -403,6 +407,7 @@ export default {
         PostgreSqlLogo,
         PythonLogo,
         DjangoLogo,
+        WindowsLogo,
     }
 }
 </script>
