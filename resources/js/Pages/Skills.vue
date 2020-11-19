@@ -365,18 +365,18 @@
 
 <script>
 import AppLayout from "@/Layouts/AppLayout";
-import PhpStormLogo from '@/Shared/phpstorm-logo'
-import PhpLogo from '@/Shared/php-logo'
-import VsCodeLogo from '@/Shared/vs-code-logo'
-import CSharpLogo from '@/Shared/csharp-logo'
-import JsLogo from '@/Shared/js-logo'
-import GoLogo from '@/Shared/go-logo'
-import LaravelLogo from '@/Shared/laravel-logo'
-import VueJsLogo from '@/Shared/vue-js-logo'
-import TailwindCssLogo from '@/Shared/tailwind-css-logo'
-import InertiaJsLogo from '@/Shared/inertia-js-logo'
-import MysqlLogo from '@/Shared/mysql-logo'
-import PostgreSqlLogo from '@/Shared/postgresql-logo'
+import PhpStormLogo from '@/Shared/Logos/phpstorm-logo'
+import PhpLogo from '@/Shared/Logos/php-logo'
+import VsCodeLogo from '@/Shared/Logos/vs-code-logo'
+import CSharpLogo from '@/Shared/Logos/csharp-logo'
+import JsLogo from '@/Shared/Logos/js-logo'
+import GoLogo from '@/Shared/Logos/go-logo'
+import LaravelLogo from '@/Shared/Logos/laravel-logo'
+import VueJsLogo from '@/Shared/Logos/vue-js-logo'
+import TailwindCssLogo from '@/Shared/Logos/tailwind-css-logo'
+import InertiaJsLogo from '@/Shared/Logos/inertia-js-logo'
+import MysqlLogo from '@/Shared/Logos/mysql-logo'
+import PostgreSqlLogo from '@/Shared/Logos/postgresql-logo'
 
 export default {
     name: "Skills",
