@@ -238,6 +238,9 @@
             <slot></slot>
         </main>
 
+        <footer class="pb-4">
+          <p class="text-xs text-gray-700 text-center" v-text="'© ' + new Date().getFullYear() + ' David Docampo'"></p>
+        </footer>
         <!-- Modal Portal -->
         <portal-target name="modal" multiple>
         </portal-target>
