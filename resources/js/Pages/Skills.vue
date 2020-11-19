@@ -371,16 +371,19 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Node.js</h3>
-
+                <node-js-logo class="w-24"></node-js-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
               <p class="mt-2 px-4 md:px-32">
-
+                I have taken a look at node.js and I think it is an extremely powerful tool. I have checked out Node.js
+                as a back-end but discarded it because i already was tuned onto Laravel. Still I will keep an eye on
+                Node.js and I would not be mad if I would have to work with Node.js.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -409,6 +412,7 @@ import UbuntuLogo from '@/Shared/Logos/ubuntu-logo'
 import DockerLogo from "@/Shared/Logos/docker-logo"
 import GitLogo from '@/Shared/Logos/git-logo'
 import NginxLogo from '@/Shared/Logos/nginx-logo'
+import NodeJsLogo from '@/Shared/Logos/node-js-logo'
 
 export default {
     name: "Skills",
@@ -434,6 +438,7 @@ export default {
         UbuntuLogo,
         GitLogo,
         NginxLogo,
+        NodeJsLogo,
     }
 }
 </script>
