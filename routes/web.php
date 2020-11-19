@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SkillsController;
+use App\Http\Controllers\HobbyController;
+use App\Http\Controllers\ResumeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +18,8 @@ use App\Http\Controllers\SkillsController;
 */
 Route::get('/', [WelcomeController::class, 'view'])->name('index');
 Route::get('/skills', [SkillsController::class, 'view'])->name('skills');
+Route::get('/hobbies', [HobbyController::class, 'view'])->name('hobbies');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-
+    Route::get('/resume', [ResumeController::class, 'view'])->name('resume');
 });

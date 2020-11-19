@@ -21,6 +21,16 @@
                             <jet-nav-link :href="route('skills')" :active="route().current('skills')">
                               Skills
                             </jet-nav-link>
+
+                            <jet-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
+                              Hobbies
+                            </jet-nav-link>
+
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex" v-if="$page.user !== null">
+                                <jet-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
+                                  Resume
+                                </jet-nav-link>
+                            </div>
                         </div>
                     </div>
 
