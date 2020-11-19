@@ -191,13 +191,15 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">MySQL</h3>
-
+                <mysql-logo class="w-24"></mysql-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 8 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                MySQL was the first database I learned to use and I have worked with it ever since. I am using MySQL
+                in a professional environment and as my database of choice for private projects. I am currently
+                administering MySQL servers and capable of writing complex queries.
               </p>
             </div>
           </div>
@@ -341,6 +343,7 @@ import LaravelLogo from '@/Shared/laravel-logo'
 import VueJsLogo from '@/Shared/vue-js-logo'
 import TailwindCssLogo from '@/Shared/tailwind-css-logo'
 import InertiaJsLogo from '@/Shared/inertia-js-logo'
+import MysqlLogo from '@/Shared/mysql-logo'
 
 export default {
     name: "Skills",
@@ -356,6 +359,7 @@ export default {
         VueJsLogo,
         TailwindCssLogo,
         InertiaJsLogo,
+        MysqlLogo,
     }
 }
 </script>
