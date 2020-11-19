@@ -115,13 +115,16 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Python</h3>
-
+                <python-logo class="w-24"></python-logo>
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
               </div>
               <p class="mt-2 px-32">
-
+                I used Python a lot in school a while ago and sometimes I even use it at my workplace. I also tried
+                out some back-end development with python. Since I haven't used python in a while and only used it
+                sparingly when I did, I am sure I will not be as efficient if I had to use it right now, but I am
+                confident that I can pick it up again quickly.
               </p>
             </div>
           </div>
@@ -377,6 +380,7 @@ import TailwindCssLogo from '@/Shared/Logos/tailwind-css-logo'
 import InertiaJsLogo from '@/Shared/Logos/inertia-js-logo'
 import MysqlLogo from '@/Shared/Logos/mysql-logo'
 import PostgreSqlLogo from '@/Shared/Logos/postgresql-logo'
+import PythonLogo from '@/Shared/Logos/python-logo'
 
 export default {
     name: "Skills",
@@ -394,6 +398,7 @@ export default {
         InertiaJsLogo,
         MysqlLogo,
         PostgreSqlLogo,
+        PythonLogo,
     }
 }
 </script>
