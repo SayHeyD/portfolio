@@ -27,7 +27,7 @@
                             </jet-nav-link>
 
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex" v-if="$page.user !== null">
-                                <jet-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
+                                <jet-nav-link :href="route('resume')" :active="route().current('resume')">
                                   Resume
                                 </jet-nav-link>
                             </div>
