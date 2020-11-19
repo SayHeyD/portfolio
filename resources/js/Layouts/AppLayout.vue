@@ -111,11 +111,11 @@
                             </jet-dropdown>
                         </div>
                     </div>
-                    <div class="h-full" v-else>
+                    <!--<div class="h-full" v-else>
                         <a :href="route('login')" class="flex items-center h-full text-sm font-medium text-gray-500 hover:text-gray-700 hover:underline hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
                           Login
                         </a>
-                    </div>
+                    </div>-->
 
                     <!-- Hamburger -->
                     <div class="-mr-2 flex items-center sm:hidden">
