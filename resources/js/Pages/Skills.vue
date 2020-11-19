@@ -115,7 +115,7 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Python</h3>
-                <go-logo class="h-12"></go-logo>
+
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 5 / 10</p>
@@ -185,7 +185,7 @@
             <div class="p-2">
               <div class="flex justify-between mt-2">
                 <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Django</h3>
-                <tailwind-css-logo class="w-24 h-24"></tailwind-css-logo>
+
               </div>
               <div class="my-auto font-semibold">
                 <p>Skill: 3 / 10</p>
