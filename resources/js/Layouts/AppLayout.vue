@@ -141,6 +141,20 @@
                     <jet-responsive-nav-link :href="route('index')" :active="route().current('index')">
                         Welcome
                     </jet-responsive-nav-link>
+
+                    <jet-responsive-nav-link :href="route('skills')" :active="route().current('skills')">
+                      Skills
+                    </jet-responsive-nav-link>
+
+                    <jet-responsive-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
+                      Hobbies
+                    </jet-responsive-nav-link>
+
+                    <div v-if="$page.user !== null">
+                        <jet-responsive-nav-link :href="route('resume')" :active="route().current('resume')">
+                          Resume
+                        </jet-responsive-nav-link>
+                    </div>
                 </div>
 
                 <!-- Responsive Settings Options -->
@@ -208,9 +222,6 @@
                             </template>
                         </template>
                     </div>
-                </div>
-                <div v-else>
-                    <p>hello</p>
                 </div>
             </div>
         </nav>
