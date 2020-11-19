@@ -12,7 +12,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Editors</h2>
             <button class="focus:outline-none" @click="toggleEditors">
-              <svg :class="{'rotate-180': showEditors}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showEditors}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
@@ -56,7 +56,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Programming Languages</h2>
             <button class="focus:outline-none" @click="toggleLanguages">
-              <svg :class="{'rotate-180': showLanguages}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showLanguages}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
@@ -151,7 +151,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Frameworks</h2>
             <button class="focus:outline-none" @click="toggleFrameworks">
-              <svg :class="{'rotate-180': showFrameworks}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showFrameworks}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
@@ -252,7 +252,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Databases</h2>
             <button class="focus:outline-none" @click="toggleDatabases">
-              <svg :class="{'rotate-180': showDatabases}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showDatabases}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
@@ -296,7 +296,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Operating Systems</h2>
             <button class="focus:outline-none" @click="toggleOperatingSystems">
-              <svg :class="{'rotate-180': showOperatingSystems}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showOperatingSystems}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
@@ -360,7 +360,7 @@
           <div class="p-2 mx-4 border-b text-center bg-white border-gray-200 flex">
             <h2 class="text-2xl flex-1">Other Technologies</h2>
             <button class="focus:outline-none" @click="toggleOtherTech">
-              <svg :class="{'rotate-180': showOtherTech}" class="fill-current h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <svg :class="{'rotate-180': showOtherTech}" class="fill-current text-gray-500 h-8 w-8 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
