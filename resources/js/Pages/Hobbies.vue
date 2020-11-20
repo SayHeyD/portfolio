@@ -22,10 +22,10 @@
                 </div>
                 <div class="m-6">
                   <p>
-                    I first started playing drums when I was 6 years old and played it till I was 12. Due to
+                    I first started playing drums when I was 6 years old and played it until the age of 12. Due to
                     some personal troubles I dropped it and only started to get back into music when I picked up an old
-                    guitar we had laying around when I was 17. I am now playing guitar regularly and acquired a bass
-                    guitar to make some music for my self. It helps calming me and also to rebuild my mental energy.
+                    guitar we had laying around, when I was 17. I am now playing guitar regularly and acquired a bass
+                    guitar to make some music for my self. It helps calming me and also rebuilds my mental energy.
                   </p>
                 </div>
               </div>
@@ -40,8 +40,8 @@
                 <div class="m-6">
                   <p>
                     Since I was about 12 years old I was interested in learning how to code. Making computers do what
-                    you want sounded really compelling to me. Making my own games and modifications for games where the
-                    two motivating goals for me. Sadly I never pulled through with it until I started my apprenticeship
+                    you want sounded really compelling to me. My goals where to code games and modifications for games
+                    I was playing at the time. Sadly I never pulled through with it until I started my apprenticeship
                     as an IT-Technician. Aside from needing it to complete my apprenticeship and it being a good skill
                     to have for the future. Writing Code is a good challenge for my mind and the have something to do
                     which will keep me on my toes, is something I think I need to also be able to enjoy the time relaxing.
