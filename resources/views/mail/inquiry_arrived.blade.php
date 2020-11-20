@@ -1,7 +1,7 @@
 @component('mail::message')
   # Your Inquiry was recieved sucessfully!
 
-  ## Message
+  ## Your Message
 
-  {{ $message }}
+  {{ $body_message }}
 @endcomponent

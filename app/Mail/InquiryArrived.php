@@ -30,8 +30,9 @@ class InquiryArrived extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.inquiry_arrived', [
-            'message' => $this->inquiry->message,
-        ]);
+        return $this->markdown('mail.inquiry_arrived', [
+            'body_message' => $this->inquiry->message,
+        ])
+            ->from(env('MAIL_USERNAME'));
     }
 }

@@ -11,35 +11,23 @@
         <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
           <p class="m-4 mb-0">You can contact me in english or in german. That way I will be able to reply most quickly.</p>
           <form class="p-4" @submit.prevent="submit">
-            <div v-if="errors !== null && errors.name.length > 0">
-              <p class="text-sm">{{ errors.name[0] }}</p>
-            </div>
 
             <div class="flex flex-col mb-4">
               <label for="name">Name:</label>
-              <input id="name" name="name" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="text" v-bind="form.name" required>
-            </div>
-            <div v-if="$page.errors.length > 0">
-              <p>Error: {{ $page.errors.name[0] }}</p>
+              <input id="name" name="name" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="text" v-model="form.name" required>
             </div>
 
             <div class="flex flex-col mb-4">
               <label for="email">E-Mail:</label>
-              <input id="email" name="email" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="email" v-bind="form.email" required>
-            </div>
-            <div v-if="$page.errors.length > 0">
-              <p>Error: {{ $page.errors.email[0] }}</p>
+              <input id="email" name="email" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="email" v-model="form.email" required>
             </div>
 
             <div class="flex flex-col mb-4">
               <label for="message">Message:</label>
-              <textarea name="message" id="message" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-bind="form.message" required></textarea>
-            </div>
-            <div v-if="$page.errors.length > 0">
-              <p>Error: {{ $page.errors.message[0] }}</p>
+              <textarea name="message" id="message" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-model="form.message" required></textarea>
             </div>
 
-            <input type="hidden" name="check">
+            <input type="hidden" name="check" v-model="form.check">
 
             <div class="w-full text-center">
               <button v-if="!sending" type="submit" class="w-full md:w-1/3 p-4 text-xl text-white rounded bg-indigo-400 hover:underline hover:bg-indigo-600 focus:outline-none transition-colors duration-300">Submit</button>
@@ -73,12 +61,18 @@ export default {
                 name: null,
                 email: null,
                 message: null,
+                check: null,
             }
         }
     },
     methods: {
         submit() {
-            this.$inertia.post(this.route('contact.send'), this.form, {
+            this.$inertia.post(this.route('contact.send'), {
+                name: this.form.name,
+                email: this.form.email,
+                message: this.form.message,
+                check: this.form.check,
+            }, {
                 onStart: () => this.sending = true,
                 onFinish: () => this.sending = false,
             })

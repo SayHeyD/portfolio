@@ -1,5 +1,5 @@
 @component('mail::message')
-  # A new Inquiry was recieved from {{ $name }}
+  # A new Inquiry was received from {{ $name }}
 
-  {{ $message }}
+  {{ $body_message }}
 @endcomponent
