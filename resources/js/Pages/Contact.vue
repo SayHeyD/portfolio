@@ -18,7 +18,7 @@
 
             <div class="flex flex-col mb-4">
               <label for="email">E-Mail:</label>
-              <input id="email" name="name" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="email" v-bind="form.email" required>
+              <input id="email" name="email" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" type="email" v-bind="form.email" required>
             </div>
 
             <div class="flex flex-col mb-4">
