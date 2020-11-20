@@ -25,6 +25,10 @@
                             <jet-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
                               Hobbies
                             </jet-nav-link>
+
+                            <jet-nav-link :href="route('projects')" :active="route().current('projects')">
+                              Projects
+                            </jet-nav-link>
                         </div>
                     </div>
 
@@ -142,6 +146,10 @@
 
                     <jet-responsive-nav-link :href="route('hobbies')" :active="route().current('hobbies')">
                       Hobbies
+                    </jet-responsive-nav-link>
+
+                    <jet-responsive-nav-link :href="route('projects')" :active="route().current('projects')">
+                      Projects
                     </jet-responsive-nav-link>
                 </div>
 

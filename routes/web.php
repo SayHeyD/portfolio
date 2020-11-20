@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SkillsController;
 use App\Http\Controllers\HobbyController;
-use App\Http\Controllers\ResumeController;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +19,7 @@ use App\Http\Controllers\ResumeController;
 Route::get('/', [WelcomeController::class, 'view'])->name('index');
 Route::get('/skills', [SkillsController::class, 'view'])->name('skills');
 Route::get('/hobbies', [HobbyController::class, 'view'])->name('hobbies');
+Route::get('/projects', [ProjectController::class, 'view'])->name('projects');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     // Routes where users have to be authenticated to access
