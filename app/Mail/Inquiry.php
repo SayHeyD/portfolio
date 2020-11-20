@@ -34,6 +34,6 @@ class Inquiry extends Mailable
             'from' => $this->inquiry->from,
             'name' => $this->inquiry->name,
             'message' => $this->inquiry->message,
-        ])->replyTo($this->inquiry->from);
+        ])->replyTo($this->inquiry->from)->to('david@docampo.ch');
     }
 }
