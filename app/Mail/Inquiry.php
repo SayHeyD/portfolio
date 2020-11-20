@@ -30,10 +30,10 @@ class Inquiry extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.Inquiry', [
+        return $this->view('mail.inquiry', [
             'from' => $this->inquiry->from,
             'name' => $this->inquiry->name,
             'message' => $this->inquiry->message,
-        ])->replyTo($this->inquiry->from)->to('david@docampo.ch');
+        ])->replyTo($this->inquiry->from);
     }
 }
