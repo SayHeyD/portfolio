@@ -8,13 +8,9 @@
 
     <div class="py-12">
       <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-          <div class="p-2 mx-4 text-center bg-white border-b border-gray-200 flex">
-            <h2 class="text-2xl flex-1">Projects</h2>
-          </div>
-
-          <div class="p-2 my-4 md:w-1/4 md:shadow md:rounded mx-auto">
-            <div class="p-2 text-center bg-white border-b border-gray-200 flex">
+        <div>
+          <div class="p-2 my-4 md:w-1/4 bg-white md:shadow md:rounded mx-auto">
+            <div class="p-2 text-center border-b border-gray-200 flex">
               <h2 class="text-xl flex-1">CodeGaudi</h2>
             </div>
 
