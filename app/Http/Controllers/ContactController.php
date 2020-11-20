@@ -22,8 +22,9 @@ class ContactController extends Controller
         $inquiry->name = $request->name;
         $inquiry->message = $request->message;
 
-
         Mail::to(env('MAIL_USERNAME'))->send(new \App\Mail\Inquiry($inquiry));
         Mail::to($request->email)->send(new InquiryArrived($inquiry));
+
+        return redirect()->back()->with('message', 'Request sent. You should receive a confirmation email shortly.');
     }
 }
