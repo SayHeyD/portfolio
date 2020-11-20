@@ -26,6 +26,8 @@
               <textarea name="message" id="message" class="mt-2 p-2 border-2 border-indigo-400 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-bind="form.message" required></textarea>
             </div>
 
+            <input type="hidden" name="check">
+            
             <div class="w-full text-center">
               <button type="submit" class="w-full md:w-1/3 p-4 text-xl text-white rounded bg-indigo-400 hover:underline hover:bg-indigo-600 transition-colors duration-300">Submit</button>
             </div>

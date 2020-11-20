@@ -27,6 +27,7 @@ class ContactRequest extends FormRequest
             'name' => ['required'],
             'email' => ['required', 'email:spoof,dns,rfc'],
             'message' => ['required'],
+            'check' => [Rule::in([null])],
         ];
     }
 
