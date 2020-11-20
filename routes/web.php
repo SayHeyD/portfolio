@@ -23,6 +23,8 @@ Route::get('/hobbies', [HobbyController::class, 'view'])->name('hobbies');
 Route::get('/projects', [ProjectController::class, 'view'])->name('projects');
 Route::get('/contact', [ContactController::class, 'view'])->name('contact');
 
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     // Routes where users have to be authenticated to access
 });
