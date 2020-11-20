@@ -11,14 +11,16 @@ class Inquiry extends Mailable
 {
     use Queueable, SerializesModels;
 
+    private $inquiry;
+
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param \App\Models\Inquiry $inquiry
      */
-    public function __construct()
+    public function __construct(\App\Models\Inquiry $inquiry)
     {
-        //
+        $this->inquiry = $inquiry;
     }
 
     /**
@@ -28,6 +30,10 @@ class Inquiry extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->view('mail.Inquiry', [
+            'from' => $this->inquiry->from,
+            'name' => $this->inquiry->name,
+            'message' => $this->inquiry->message,
+        ])->replyTo($this->inquiry->from);
     }
 }
