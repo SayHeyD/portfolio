@@ -9,7 +9,21 @@
     <div class="py-12">
       <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-          test
+          <div class="p-2 mx-4 text-center bg-white border-b border-gray-200 flex">
+            <h2 class="text-2xl flex-1">Projects</h2>
+          </div>
+
+          <div class="p-2 my-4 md:w-1/4 md:shadow md:rounded mx-auto">
+            <div class="p-2 text-center bg-white border-b border-gray-200 flex">
+              <h2 class="text-xl flex-1">CodeGaudi</h2>
+            </div>
+
+            <p class="py-6">
+              CodeGaudi is a project I am working on with some friends. I am afraid I cannot tell you more.
+              If you want to find out more, you will have to look
+              <a class="text-indigo-500 hover:underline" target="_blank" href="https://codegaudi.com/">elsewhere</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
