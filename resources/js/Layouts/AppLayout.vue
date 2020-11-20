@@ -29,6 +29,10 @@
                             <jet-nav-link :href="route('projects')" :active="route().current('projects')">
                               Projects
                             </jet-nav-link>
+
+                            <jet-nav-link :href="route('contact')" :active="route().current('contact')">
+                              Contact
+                            </jet-nav-link>
                         </div>
                     </div>
 
@@ -150,6 +154,10 @@
 
                     <jet-responsive-nav-link :href="route('projects')" :active="route().current('projects')">
                       Projects
+                    </jet-responsive-nav-link>
+
+                    <jet-responsive-nav-link :href="route('contact')" :active="route().current('contact')">
+                      Contact
                     </jet-responsive-nav-link>
                 </div>
 
