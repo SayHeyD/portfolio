@@ -67,12 +67,7 @@ export default {
     },
     methods: {
         submit() {
-            this.$inertia.post(this.route('contact.send'), {
-                name: this.form.name,
-                email: this.form.email,
-                message: this.form.message,
-                check: this.form.check,
-            }, {
+            this.$inertia.post(this.route('contact.send'), this.form, {
                 onStart: () => this.sending = true,
                 onFinish: () => this.sending = false,
             })
