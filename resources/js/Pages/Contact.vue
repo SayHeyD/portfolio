@@ -12,11 +12,15 @@
           <p class="m-4 mb-0">You can contact me in english or in german. That way I will be able to reply most quickly.</p>
           <form class="p-4" @submit.prevent="submit">
 
+            <div v-if="$page.flash.success" class="p-2 text-sm text-center font-semibold bg-green-400 text-white rounded mb-4">
+              <p v-text="$page.flash.success"></p>
+            </div>
+
             <div class="flex flex-col mb-4">
               <label for="name">Name:</label>
               <input id="name" name="name" :class="[errors.email ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" type="text" v-model="form.name">
             </div>
-            <div v-if="errors.name" class="p-2 text-sm text-center font-semibold bg-red-200 text-red-500 border-b border-red-500 rounded-t mb-4">
+            <div v-if="errors.name" class="p-2 text-sm text-center font-semibold bg-red-500 text-white rounded mb-4">
               <p v-text="errors.name"></p>
             </div>
 
@@ -24,7 +28,7 @@
               <label for="email">E-Mail:</label>
               <input id="email" name="email" :class="[errors.email ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" type="email" v-model="form.email">
             </div>
-            <div v-if="errors.email" class="p-2 text-sm text-center font-semibold bg-red-200 text-red-500 border-b border-red-500 rounded-t mb-4">
+            <div v-if="errors.email" class="p-2 text-sm text-center font-semibold bg-red-500 text-white rounded mb-4">
               <p v-text="errors.email"></p>
             </div>
 
@@ -32,7 +36,7 @@
               <label for="message">Message:</label>
               <textarea name="message" id="message" :class="[errors.email ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-model="form.message"></textarea>
             </div>
-            <div v-if="errors.message" class="p-2 text-sm text-center font-semibold bg-red-200 text-red-500 border-b border-red-500 rounded-t mb-4">
+            <div v-if="errors.message" class="p-2 text-sm text-center font-semibold bg-red-500 text-white rounded mb-4">
               <p v-text="errors.message"></p>
             </div>
 
