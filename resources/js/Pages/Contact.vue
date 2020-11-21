@@ -86,10 +86,12 @@ export default {
             this.$inertia.post(this.route('contact.send'), this.form, {
                 onStart: () => this.sending = true,
                 onFinish: () => {
+                    if (Object.keys(this.errors).length === 0) {
+                        this.form.name = null
+                        this.form.email = null
+                        this.form.message = null
+                    }
                     this.sending = false
-                    this.form.name = null
-                    this.form.email = null
-                    this.form.message = null
                 },
             })
         }
