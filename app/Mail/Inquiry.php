@@ -35,7 +35,7 @@ class Inquiry extends Mailable
                 'name' => $this->inquiry->name,
                 'body_message' => $this->inquiry->message,
             ])
-            ->from(env('MAIL_USERNAME'), 'David Docampo')
+            ->from(env('MAIL_USERNAME'), 'Portfolio')
             ->replyTo($this->inquiry->from);
     }
 }
