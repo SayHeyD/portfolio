@@ -18,7 +18,7 @@
 
             <div class="flex flex-col mb-4">
               <label for="name">Name:</label>
-              <input id="name" name="name" :class="[errors.email ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" type="text" v-model="form.name">
+              <input id="name" name="name" :class="[errors.name ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" type="text" v-model="form.name">
             </div>
             <div v-if="errors.name" class="p-2 text-sm text-center font-semibold bg-red-500 text-white rounded mb-4">
               <p v-text="errors.name"></p>
@@ -34,7 +34,7 @@
 
             <div class="flex flex-col mb-4">
               <label for="message">Message:</label>
-              <textarea name="message" id="message" :class="[errors.email ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-model="form.message"></textarea>
+              <textarea name="message" id="message" :class="[errors.message ? 'border-red-500' : 'border-indigo-400']" class="mt-2 p-2 border-2 rounded focus:border-indigo-600 focus:outline-none" cols="30" rows="10" v-model="form.message"></textarea>
             </div>
             <div v-if="errors.message" class="p-2 text-sm text-center font-semibold bg-red-500 text-white rounded mb-4">
               <p v-text="errors.message"></p>
@@ -85,7 +85,12 @@ export default {
         submit() {
             this.$inertia.post(this.route('contact.send'), this.form, {
                 onStart: () => this.sending = true,
-                onFinish: () => this.sending = false,
+                onFinish: () => {
+                    this.sending = false
+                    this.form.name = null
+                    this.form.email = null
+                    this.form.message = null
+                },
             })
         }
     }
