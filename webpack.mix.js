@@ -18,3 +18,7 @@ mix.js('resources/js/app.js', 'public/js')
     ])
     .webpackConfig(require('./webpack.config'))
     .copyDirectory('resources/img', 'public/img');
+
+if (mix.inProduction()) {
+    mix.version();
+}
