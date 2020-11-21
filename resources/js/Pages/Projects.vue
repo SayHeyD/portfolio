@@ -17,7 +17,8 @@
             <p class="py-6">
               CodeGaudi is a project I am working on with some friends. I am afraid I cannot tell you more.
               If you want to find out more, you will have to look
-              <a class="text-indigo-500 hover:underline" target="_blank" href="https://codegaudi.com/">elsewhere</a>.
+              <a class="text-indigo-500 hover:border-indigo-700 hover:underline transition-colors duration-150" target="_blank" href="https://codegaudi.com/">
+                elsewhere</a>.
             </p>
           </div>
 
@@ -30,7 +31,8 @@
               I did the development for Restaurant-Gonzalez in Zürich. I am also responsible for server maintenance
               and sometimes technical support. If you're near Zürich and looking for a great spanish restaurant
               don't be afraid to check
-              <a class="text-indigo-500 hover:underline" target="_blank" href="https://restaurant-gonzalez.ch/">them out</a>.
+              <a class="text-indigo-500 hover:border-indigo-700 hover:underline transition-colors duration-150" target="_blank" href="https://restaurant-gonzalez.ch/">
+                them out</a>.
             </p>
           </div>
         </div>
