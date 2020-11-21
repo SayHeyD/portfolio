@@ -1,5 +1,5 @@
 @component('mail::message')
-  # Your Inquiry was recieved sucessfully!
+  # Hello {{ $name }}, your Inquiry was received successfully!
 
   ## Your Message
 
