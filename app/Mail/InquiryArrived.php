@@ -34,6 +34,6 @@ class InquiryArrived extends Mailable
             'name' => $this->inquiry->name,
             'body_message' => $this->inquiry->message,
         ])
-            ->from(env('MAIL_USERNAME'));
+            ->from(env('MAIL_USERNAME'), 'Portfolio');
     }
 }
