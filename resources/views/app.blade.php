@@ -7,6 +7,15 @@
 
         <meta name="description" content="Welcome to my portfolio website. Feel free to explore, maybe you will even find some secrets"/>
 
+        <meta property="og:title" content="Portfolio - David Docampo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ env('APP_URL') }}" />
+        <meta property="og:image" content="{{ asset('img/david-docampo-logo.png') }}" />
+        <meta property="og:image:alt" content="The logo of the David Docampo portfolio Website"/>
+        <meta property="og:image:height" content="640"/>
+        <meta property="og:image:width" content="640"/>
+        <meta property="og:image:type" content="image/png"/>
+
         <link rel="icon" type="image/ico" href="/img/david-docampo-logo.ico">
 
         <title>Portfolio - David Docampo</title>
