@@ -243,7 +243,9 @@
         </main>
 
         <footer class="pb-4">
-          <p class="text-xs text-gray-700 text-center" v-text="'© ' + new Date().getFullYear() + ' David Docampo'"></p>
+          <p class="text-xs text-gray-700 text-center" v-text="">© {{ new Date().getFullYear() }} David Docampo | <a
+            class="text-indigo-500 hover:border-indigo-700 hover:underline transition-colors duration-150"
+            href="https://github.com/SayHeyD/portfolio" target="_blank">Check this out on GitHub!</a></p>
         </footer>
         <!-- Modal Portal -->
         <portal-target name="modal" multiple>
