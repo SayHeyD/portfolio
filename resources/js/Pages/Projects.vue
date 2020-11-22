@@ -11,7 +11,7 @@
         <div class="flex flex-col md:flex-row md:justify-center">
           <div class="p-2 my-4 md:w-1/4 bg-white md:shadow md:rounded mx-auto">
             <div class="p-2 text-center border-b border-gray-200 flex">
-              <h2 class="text-xl flex-1">CodeGaudi</h2>
+              <h2 class="text-xl flex-1">Codegaudi</h2>
             </div>
 
             <p class="py-6">
