@@ -30,7 +30,7 @@
                 </div>
                 <p class="mt-2 px-4 md:px-32">
                   I am working with PhpStorm as my primary editor. But I still do not know most of the system in-depth,
-                  since most of the time I do not need the functions provided.
+                  since most of the time, I do not need the functions provided.
                 </p>
               </div>
             </div>
@@ -45,9 +45,9 @@
                   <p>Skill: 3 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  For some appliances VSCode is more performant then PhpStorm e.g. Vue-CLI Apps. The indexing of PhpStorm
-                  on my development Laptop is really slow, which is why i switch to VSCode if I have to do some intensive
-                  Front-End tasks.
+                  For some appliances VSCode is more performant then PhpStorm e.g. Vue-CLI Apps. The indexing process
+                  of PhpStorm on my development Laptop is really slow, which is why I switch to VSCode if I have to do
+                  some intensive front-end tasks.
                 </p>
               </div>
             </div>
@@ -73,8 +73,8 @@
                 </div>
                 <p class="mt-2 px-4 md:px-32">
                   Since most of my private projects are using Laravel, I am mostly developing with PHP. I am confident
-                  that I am able to do realize most concepts with PHP. I will have to admit, that because I am doing a
-                  lot with Laravel, my plain PHP skills have suffered a little, but I am confident i can pick it up
+                  that I am able to realize most concepts with PHP. Although I will have to admit, that because I am doing a
+                  lot with Laravel, my plain PHP skills have suffered a little, but I am confident i can pick them up
                   again quickly.
                 </p>
               </div>
@@ -91,7 +91,7 @@
                 </div>
                 <p class="mt-2 px-4 md:px-32">
                   I earned most of my experience of C# at my workplace. I wrote some smaller applications and add-ons
-                  in C#. Everything I know about C# I learned myself from online resources.
+                  in C#. Everything I know about C#, I learned myself from online resources.
                 </p>
               </div>
             </div>
@@ -123,7 +123,7 @@
                   <p>Skill: 2 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  I only took a look at Go for a Weekend. I never really looked at it deeper but I will keep it in my
+                  I only took a look at Go for a Weekend. I never really looked at it more but I will keep it on my
                   mind and I am certainly not apposed to learning and doing more with go.
                 </p>
               </div>
@@ -142,7 +142,7 @@
                   I used Python a lot in school a while ago and sometimes I even use it at my workplace. I also tried
                   out some back-end development with python. Since I haven't used python in a while and only used it
                   sparingly when I did, I am sure I will not be as efficient if I had to use it right now, but I am
-                  confident that I can pick it up again quickly.
+                  confident that I will be able to get into it again quickly.
                 </p>
               </div>
             </div>
@@ -167,9 +167,9 @@
                   <p>Skill: 7 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  Laravel is my preferred Framework when it comes to Backend development. Aside from the Framework itself
+                  Laravel is my preferred framework when it comes to backend development. Aside from the framework itself,
                   the ecosystem that Laravel provides is a huge, extremely useful toolbox every web-developer should take a
-                  look on. I can find my way around in Laravel but I still have some areas I lack knowledge.
+                  look at. I can find my way around in Laravel but I still have some topics and concepts I lack knowledge in.
                 </p>
               </div>
             </div>
@@ -184,9 +184,9 @@
                   <p>Skill: 5 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  At first I was using the blade templating engine laravel provides. But after some time I realized that
-                  if I want to realize some more complex logic in the front-end, doing this will be much easier with a
-                  framework like Vue.js. I am capable of realizing most of the concepts I want to realize. Still, I run into
+                  At first I was using the blade templating engine Laravel provides. But after some time, I realized that
+                  if I want to be able to implement some more complex logic in the front-end, doing this will be much easier with a
+                  framework like Vue.js. I am capable of implementing most of the concepts I want to realize. Still, I run into
                   some problems quite often, because I still don't really understand how exactly Vue.js works.
                 </p>
               </div>
@@ -202,11 +202,11 @@
                   <p>Skill: 8 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  When I first heard about Tailwind CSS from a colleague and looked into it, I felt some much relieve.
+                  When I first heard about Tailwind CSS from a colleague and looked into it, I felt so much relieve.
                   It's not like I hate CSS, but component frameworks like Bootstrap weren't cutting it for me and plain
                   CSS was just not convenient enough. I have already done a lot with Tailwind and I am fairly proficient
-                  with it. I still gave to look up the documentation sometimes for classes I don't use often or if I want
-                  to customize the framework.
+                  with it. I still have to look up the documentation sometimes for styling-classes I don't use often or
+                  if I want to customize the framework.
                 </p>
               </div>
             </div>
@@ -222,8 +222,8 @@
                 </div>
                 <p class="mt-2 px-4 md:px-32">
                   I tried out Django a while ago before I switched at stayed at Laravel. I did one or two projects with
-                  Django before discarding it and sadly the Projects. I have nothing against Django but I would prefer
-                  it to be able to work with Laravel.
+                  Django before discarding it and sadly all the Projects too. I have nothing against Django but I would prefer
+                  it to be able to work with Laravel at a Job or for a Project.
                 </p>
               </div>
             </div>
@@ -232,18 +232,19 @@
               <div class="p-2">
                 <div class="flex justify-between mt-2">
                   <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Inertia.js</h3>
-                  <inertia-js-logo class="w-24"></inertia-js-logo>
+                  <inertia-js-logo class="w-24 h-24"></inertia-js-logo>
                 </div>
                 <div class="my-auto font-semibold">
                   <p>Skill: 6 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  Inertia.js isn't really a framework, it's a tool to integrate front-end frameworks and SPAs with b
-                  ack-end frameworks more seamlessly. Inertia.js doesn't require a specific language or framework to work.
+                  Inertia.js isn't really a framework, it's a tool to integrate front-end frameworks and SPAs with
+                  back-end frameworks more seamlessly. Inertia.js doesn't require a specific language or framework to work.
                   I have only used it with Laravel and Vue.js. It allows me to have a SPA without having to provide a
                   REST API on my back-end. You can take a look at the
                   <a class="text-indigo-500 hover:underline" href="https://github.com/inertiajs/pingcrm" target="_blank">PingCRM</a>
-                  repository or at this repository to see how it works.
+                  repository or at
+                  <a class="text-indigo-500 hover:underline" href="https://github.com/SayHeyD/portfolio" target="_blank">this repository</a> to see how it works.
                 </p>
               </div>
             </div>
@@ -262,7 +263,7 @@
               <div class="p-2">
                 <div class="flex justify-between mt-2">
                   <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">MySQL</h3>
-                  <mysql-logo class="w-24"></mysql-logo>
+                  <mysql-logo class="w-24 h-24"></mysql-logo>
                 </div>
                 <div class="my-auto font-semibold">
                   <p>Skill: 8 / 10</p>
@@ -285,7 +286,7 @@
                   <p>Skill: 6 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  When I tried out django I had some trouble with the mysql-connectors and substituted mysql with
+                  When I tried out Django I had some trouble with the mysql-connectors and substituted MySQL for
                   PostgreSql. Since, I have used PostgreSql more and more in projects. Although I understand how
                   PostgreSql works I am not as comfortable with it as with MySql.
                 </p>
@@ -314,7 +315,7 @@
                 <p class="mt-2 px-4 md:px-32">
                   Windows is the OS I have the most experience with, simply because I have used it since I was 9
                   years old. I have worked with Windows XP, Vista, 7, 8 and 10. I am also working with a Windows-Server
-                  in my free time since I am managing and administering a game-server for multiple gaming communities.
+                  in my free time because I am managing and administering a game-server for multiple gaming communities.
                   Besides that I am working with a Windows-Server at my workplace and have used it extensively in school.
                 </p>
               </div>
@@ -333,7 +334,8 @@
                   After I started web-development I became interested in mobile app development and looked into it. I
                   realized quickly, that if I want to develop iOS Apps I would need to get my hands onto MacOS. After
                   a push from a friend I have bought myself a second-hand MacBook Pro and have been using it as my
-                  primary development machine since. Although I haven't done any mobile app development with it.
+                  primary development machine since. Although I am a little bit ashamed that I haven't done any mobile
+                  app development with it.
                 </p>
               </div>
             </div>
@@ -348,10 +350,11 @@
                   <p>Skill: 7 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  Ubuntu is my preferred server OS when it comes to servers for web-technologies. I have little
-                  experience with Ubuntu at my workplace but I am administering a Ubuntu Server in a professional
-                  environment for a private customer. I also had a lot of experience with it in school. I have also
-                  evaluated it as my development OS but after buying myself a Mac i switched to MacOS for that.
+                  Ubuntu is my preferred server OS when it comes to servers for web-technologies. I don't have much
+                  experience with Ubuntu at my workplace but I am administering a Ubuntu server in a professional
+                  environment for a private customer. I also had a lot of experience with it in a school environment.
+                  I have also evaluated it as my development OS but after buying myself a Mac i switched to MacOS for
+                  development.
                 </p>
               </div>
             </div>
@@ -388,7 +391,7 @@
               <div class="p-2">
                 <div class="flex justify-between mt-2">
                   <h3 class="text-center self-center font-semibold text-xl border-b border-gray-200">Git</h3>
-                  <git-logo class="w-24"></git-logo>
+                  <git-logo class="w-24 h-24"></git-logo>
                 </div>
                 <div class="my-auto font-semibold">
                   <p>Skill: 7 / 10</p>
@@ -414,9 +417,9 @@
                 </div>
                 <p class="mt-2 px-4 md:px-32">
                   Nginx is my webserver of choice and I use it to serve most the websites and web-apps I administering.
-                  I can setup a a nginx server as a webserver or reverse-proxy in a productive environment but i still
+                  I can setup an nginx server as a webserver or reverse-proxy in a productive environment but I still
                   will have to research the specifics of the service I want to publish and look at the documentation
-                  od the condifuration options.
+                  od the configuration options.
                 </p>
               </div>
             </div>
@@ -431,7 +434,7 @@
                   <p>Skill: 5 / 10</p>
                 </div>
                 <p class="mt-2 px-4 md:px-32">
-                  I have taken a look at node.js and I think it is an extremely powerful tool. I have checked out Node.js
+                  I have taken a look at Node.js and I think it is an extremely powerful tool. I have checked out Node.js
                   as a back-end but discarded it because i already was tuned onto Laravel. Still I will keep an eye on
                   Node.js and I would not be mad if I would have to work with Node.js.
                 </p>
