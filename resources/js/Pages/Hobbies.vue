@@ -56,7 +56,17 @@
                 <div class="m-6">
                   <p>
                     If I remember correctly, the first time I played a game it was SSX Tricky on a PlayStation 2 at my
-                    fathers place. I think I was about 5 years old then.
+                    fathers place. I think I was about 5 years old then but the first game I really connected with was
+                    Minecraft. I kinda fell in love with it when I was 9 years old and I think it was the only game I
+                    regularly played until I was 12 years old. Then I started to get into shooter games and "more adult"
+                    games, which my parents weren't really happy about. Now I am mostly playing
+                    <a class="text-indigo-500 hover:border-indigo-700 hover:underline transition-colors duration-150" href="https://arma3.com/" target="_blank">ArmA 3</a>
+                    and
+                    <a class="text-indigo-500 hover:border-indigo-700 hover:underline transition-colors duration-150" href="http://www.swtor.com/" target="_blank">SWTOR</a>.
+                    Both games require great teamwork and communication to be able to play at the highest level and I
+                    would say that I enjoy games that are based on teamwork the most. I am hosting the gameserver
+                    for ArmA 3 and the voiceservers for both the ArmA 3 and SWTOR community I am a part of in my free
+                    time.
                   </p>
                 </div>
               </div>
