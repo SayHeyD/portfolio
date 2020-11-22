@@ -8,10 +8,10 @@
 
     <div class="py-12">
       <div class="max-w-7xl mx-auto">
-        <div class="md:bg-transparent sm:px-6 lg:px-8 md:shadow-none overflow-hidden shadow-xl sm:rounded-lg">
+        <div class="md:bg-transparent sm:px-6 lg:px-8 overflow-hidden sm:rounded-lg">
           <div class="md:mx-auto md:my-2 flex flex-col md:flex-row flex-wrap">
 
-            <div class="md:shadow bg-white md:rounded md:m-2 md:mx-auto flex md:max-w-xl flex-col">
+            <div class="shadow bg-white md:rounded md:m-2 md:mx-auto flex md:max-w-xl flex-col">
               <h3 class="m-2 text-xl border-b border-gray-200 text-center">Music</h3>
               <div class="flex-1 flex flex-col justify-between">
                 <div class="my-6">
@@ -28,7 +28,7 @@
               </div>
             </div>
 
-            <div class="md:shadow bg-white md:rounded mt-6 md:mt-2 md:m-2 md:mx-auto flex md:max-w-xl flex-col">
+            <div class="shadow bg-white md:rounded mt-6 md:mt-2 md:m-2 md:mx-auto flex md:max-w-xl flex-col">
               <h3 class="m-2 text-xl border-b border-gray-200 text-center">Programming</h3>
               <div class="flex-1 flex flex-col justify-between">
                 <div class="my-6">
@@ -47,7 +47,7 @@
               </div>
             </div>
 
-            <div class="md:shadow bg-white md:rounded mt-6 md:mt-2 md:m-2 md:mx-auto flex md:max-w-xl flex-col">
+            <div class="shadow bg-white md:rounded my-6 md:mt-2 md:m-2 md:mx-auto flex md:max-w-xl flex-col">
               <h3 class="m-2 text-xl border-b border-gray-200 text-center">Gaming</h3>
               <div class="flex-1 flex flex-col justify-between">
                 <div class="my-6">
