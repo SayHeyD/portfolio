@@ -36,8 +36,8 @@ class ContactRequest extends FormRequest
     {
         return [
             'name.required' => "Please enter a name",
-            'email.required' => "Please enter a e-Mail",
-            'email.email' => "Please enter a valid e -Mail",
+            'email.required' => "Please enter a e-mail",
+            'email.email' => "Please enter a valid e-mail",
             'message.required' => "Please enter a message",
         ];
     }
